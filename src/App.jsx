@@ -1,14 +1,14 @@
-import "./App.css";
+import "./index.css";
 import { Gallery } from "./Gallery";
 import { SearchForm } from "./SearchForm";
-import { ThemeToggle } from "./ThemeToggle";
+// import { ThemeToggle } from "./ThemeToggle";
 
 function App() {
   return (
     <>
       <Gallery />
       <SearchForm />
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
     </>
   );
 }
